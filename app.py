@@ -81,8 +81,8 @@ def analyze_dark_channel(dark_channel):
 # ===================== Face Blurring with DNN =====================
 # Load DNN face detector
 face_net = cv2.dnn.readNetFromCaffe(
-    r"C:\Users\User\haze_app\models\deploy.prototxt.txt",  # prototxt
-    r"C:\Users\User\haze_app\models\res10_300x300_ssd_iter_140000.caffemodel"  # caffemodel (rename if needed!)
+    r"C:\Users\User\haze_app\models\deploy.prototxt.txt",  # Windows path
+    r"C:\Users\User\haze_app\models\res10_300x300_ssd_iter_140000.caffemodel"
 )
 
 
